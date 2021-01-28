@@ -1,7 +1,5 @@
 import random
-def Haupt():
-  #print("Keep it logically awesome.")
-
+def main():
   f = open("quotes.txt")
   quotes = f.readlines()
   f.close()
@@ -10,4 +8,4 @@ def Haupt():
   print(quotes[rnd])
 
 if __name__== "__main__":
-  Haupt()
+  main()
